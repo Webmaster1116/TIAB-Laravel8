@@ -1,0 +1,13 @@
+<svg id="Page-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.35" height="22.35" viewBox="0 0 22.35 22.35">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e75d7a"/>
+      <stop offset="1" stop-color="#c12280"/>
+    </linearGradient>
+  </defs>
+  <g id="Core">
+    <g id="shopping-cart">
+      <path id="Shape" d="M6.705,17.88A2.235,2.235,0,1,0,8.94,20.115,2.242,2.242,0,0,0,6.705,17.88ZM0,0V2.235H2.235l4.023,8.493L4.694,13.41a3.97,3.97,0,0,0-.224,1.118,2.242,2.242,0,0,0,2.235,2.235h13.41V14.528H7.152a.24.24,0,0,1-.224-.224v-.112l1.006-1.9H16.2a2.038,2.038,0,0,0,1.9-1.118l4.023-7.264a.615.615,0,0,0,.224-.559,1.056,1.056,0,0,0-1.118-1.118H4.694L3.688,0ZM17.88,17.88a2.235,2.235,0,1,0,2.235,2.235A2.242,2.242,0,0,0,17.88,17.88Z" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

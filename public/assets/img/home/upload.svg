@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="316" height="294" viewBox="0 0 316 294">
+  <g id="Group_21158" data-name="Group 21158" transform="translate(-995 -765)">
+    <rect id="Rectangle_598" data-name="Rectangle 598" width="316" height="294" rx="44" transform="translate(995 765)" fill="#ebebeb"/>
+    <g id="Group_21157" data-name="Group 21157" transform="translate(1055.44 846.282)">
+      <g id="Icon_ionic-md-photos" data-name="Icon ionic-md-photos" transform="translate(66.693)" opacity="0.24">
+        <path id="Path_49273" data-name="Path 49273" d="M54.958,53.2V14.132A6.273,6.273,0,0,0,48.7,7.875H9.632a6.273,6.273,0,0,0-6.257,6.257V53.215a6.273,6.273,0,0,0,6.257,6.257H48.715A6.292,6.292,0,0,0,54.958,53.2ZM19.392,36.011,26.03,45.39,35.8,31.322,48.7,50.079H9.632Z" transform="translate(-3.375 1.504)"/>
+        <path id="Path_49274" data-name="Path 49274" d="M53.2,3.375H14.132A6.273,6.273,0,0,0,7.875,9.632v.777H46.166a6.273,6.273,0,0,1,6.257,6.257V54.958H53.2A6.273,6.273,0,0,0,59.458,48.7V9.632A6.273,6.273,0,0,0,53.2,3.375Z" transform="translate(1.504 -3.375)"/>
+      </g>
+      <text id="Upload_Photo" data-name="Upload Photo" transform="translate(0 120.196)" font-size="28" font-family="Poppins-Regular, Poppins" opacity="0.35"><tspan x="0" y="0">Upload Photo</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,143 @@
+.about-teach {
+  color: #212958;
+  font-size: 45px;
+  display: block;
+}
+.about-teach-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-title {
+  margin-bottom: 30px;
+}
+.card-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.teach-card {
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 40px;
+  margin-right: 20px;
+}
+.teach-card:hover {
+  background-color: #212958;
+}
+.teach-card:hover .card-detail span {
+  color: #fff;
+}
+.teach-card span {
+  color: #c1237f;
+  font-size: 22px;
+}
+.about-jumbotron {
+  height: 750px !important;
+}
+.about-frontpage {
+  justify-content: space-around !important;
+  margin-top: 5rem;
+}
+.about-frontpage2 {
+  width: 30vw !important;
+}
+.about-works {
+  background-image: url(../img/about/about-bg1.png);
+  height: 900px;
+  background-repeat: no-repeat;
+}
+.about-works-title {
+  padding-top: 9em;
+}
+.about-works-content {
+  text-align: center;
+  display: flex;
+}
+#teachBox {
+  height: 800px;
+}
+.about-feature {
+  background: #fff;
+  text-align: center;
+  padding: 30px 18px 0;
+  margin-bottom: 40px;
+}
+.about-feature img {
+  padding-top: 10px;
+}
+.about-container {
+  padding-top: 4em;
+}
+.about-container1 {
+  padding-top: 15em;
+}
+.about-feature h2 {
+  color: #212957;
+  font-size: 25px;
+  padding-top: 30px;
+}
+.about-feature p {
+  color: #707070;
+  font-size: 16px;
+  line-height: 2;
+  padding: 10px 0px !important;
+}
+.about-people {
+  background-image: url("../img/about/about-bg3.png");
+  height: 1200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.about-feature:hover {
+  background: linear-gradient(180deg, #e75d7a, #c12280);
+}
+.about-feature:hover p,
+.about-feature:hover h2 {
+  color: #fff;
+}
+.about-feature:hover span {
+  color: #fff;
+  border: 3px solid #fff;
+}
+.round-numbers {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.about-number h2 {
+  padding-top: 40px !important;
+}
+.about-number p {
+  padding-top: 20px !important;
+}
+.number-round {
+  width: 80px;
+}
+.number-round span {
+  padding: 18px;
+  border: 3px solid #212957;
+  border-radius: 50%;
+  color: #212957;
+}
+.about-footer {
+  margin-top: 8em;
+}
+
+@media (max-width: 1366px) {
+  .about-container1 {
+    padding-top: 4em;
+  }
+  .about-people {
+    height: 850px;
+  }
+  .about-feature h2 {
+    font-size: 22px;
+  }
+}

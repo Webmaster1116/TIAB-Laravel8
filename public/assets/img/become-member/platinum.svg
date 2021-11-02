@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="516.395" height="368.276" viewBox="0 0 516.395 368.276">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.016" y1="-0.052" x2="1.02" y2="0.94" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5ea2ef"/>
+      <stop offset="1" stop-color="#d12d9c"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Path_48952" data-name="Path 48952" d="M535.68,430.044,320.54,467.409a93.046,93.046,0,0,1-31.768,0L73.631,430.044c-15.8-2.744-27.173-14.809-27.173-28.824V120.886c0-11.261,10.5-20.387,23.438-20.387H539.415c12.946,0,23.438,9.126,23.438,20.387V401.22C562.853,415.235,551.48,427.3,535.68,430.044Z" transform="translate(-46.458 -100.499)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.004" stop-color="#6d4add"/>
+      <stop offset="0.362" stop-color="#7d43d4"/>
+      <stop offset="1" stop-color="#a533c1"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_21699" data-name="Group 21699" transform="translate(-700 -454.255)">
+    <path id="Path_48987" data-name="Path 48987" d="M535.68,423.687,320.54,460.332a94.848,94.848,0,0,1-31.768,0L73.631,423.687c-15.8-2.691-27.173-14.523-27.173-28.268V120.493c0-11.043,10.5-19.994,23.438-19.994H539.415c12.946,0,23.438,8.95,23.438,19.994V395.419C562.853,409.164,551.48,421,535.68,423.687Z" transform="translate(653.542 353.756)" fill="url(#linear-gradient)"/>
+    <g id="Group_21067" data-name="Group 21067" transform="translate(700 382.255)" opacity="0.13" style="mix-blend-mode: screen;isolation: isolate">
+      <g id="Group_20999" data-name="Group 20999" transform="translate(0 72)" clip-path="url(#clip-path)">
+        <ellipse id="Ellipse_376" data-name="Ellipse 376" cx="208.822" cy="208.822" rx="208.822" ry="208.822" transform="translate(-300.724 -251.921)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_48949" data-name="Path 48949" d="M366.183,193.089A123.424,123.424,0,1,1,242.756,69.667,123.423,123.423,0,0,1,366.183,193.089Z" transform="translate(172.393 -248.202)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_48950" data-name="Path 48950" d="M281.846,292.422A123.422,123.422,0,1,1,158.423,169,123.423,123.423,0,0,1,281.846,292.422Z" transform="translate(-80.864 50.101)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_48951" data-name="Path 48951" d="M247.463,207.014a85.4,85.4,0,1,1-85.4-85.4A85.4,85.4,0,0,1,247.463,207.014Z" transform="translate(44.264 -92.193)" fill="url(#linear-gradient-2)"/>
+        <ellipse id="Ellipse_377" data-name="Ellipse 377" cx="153.531" cy="153.531" rx="153.531" ry="153.531" transform="translate(224.169 469.547) rotate(-80.805)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

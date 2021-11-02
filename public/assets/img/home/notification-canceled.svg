@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e4597a"/>
+      <stop offset="1" stop-color="#c2247f"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_21544" data-name="Group 21544" transform="translate(-1259 -323)">
+    <circle id="Ellipse_413" data-name="Ellipse 413" cx="14" cy="14" r="14" transform="translate(1259 323)" fill="url(#linear-gradient)"/>
+    <path id="Icon_metro-cross" data-name="Icon metro-cross" d="M13.175,10.526h0L9.929,7.279l3.247-3.247h0a.335.335,0,0,0,0-.473L11.642,2.026a.335.335,0,0,0-.473,0h0L7.922,5.273,4.675,2.026h0a.335.335,0,0,0-.473,0L2.668,3.56a.335.335,0,0,0,0,.473h0L5.915,7.279,2.668,10.526h0a.335.335,0,0,0,0,.473L4.2,12.533a.335.335,0,0,0,.473,0h0L7.922,9.286l3.247,3.247h0a.335.335,0,0,0,.473,0L13.175,11a.335.335,0,0,0,0-.473Z" transform="translate(1265.429 330.072)" fill="#fff"/>
+  </g>
+</svg>

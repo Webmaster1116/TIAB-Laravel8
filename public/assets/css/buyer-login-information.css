@@ -1,0 +1,235 @@
+.jumbotron {
+    height: 1350px !important;
+    background: #f6f6f6 !important;
+}
+.buyer-jumbotron {
+    height: 1400px !important;
+}
+.seller-jumbotron {
+    height: 1470px !important;
+}
+.login {
+    display: flex;
+}
+.login-box {
+    background: #fff;
+    padding: 50px;
+    width: 50%;
+    margin-left: 20px;
+}
+.login-header {
+    text-align: center;
+}
+.login-header span {
+    font-size: 25px;
+    color: #212957;
+    font-weight: bold;
+}
+.personal {
+    margin-top: 4em;
+}
+.personal span {
+    font-size: 25px;
+    color: #212957;
+}
+.login-box .buyer-input {
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    padding: 15px 0px;
+    border: none;
+    border-bottom: 1px solid rgb(112, 112, 112, 0.1) !important;
+}
+.select1 {
+    margin: 10px 0 10px;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0px !important;
+    font-size: 16px !important;
+    color: #707070 !important;
+    height: 56px !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid rgb(112, 112, 112, 0.1) !important;
+}
+.select1:focus {
+    border: #fff !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgb(112, 112, 112, 0.1) !important;
+}
+.login-input {
+    margin-top: 3em !important;
+}
+.login-input span {
+    font-size: 10px !important;
+    color: #707070 !important;
+}
+.login-input p {
+    font-size: 16px;
+    color: #000;
+}
+.user-id {
+    margin-bottom: 10px !important;
+}
+.password {
+    margin-top: 20px;
+}
+.secret-answer {
+    margin-top: 20px;
+}
+.checkbox {
+    display: flex !important;
+    align-items: center;
+    margin-top: 10px !important;
+}
+.checkbox span {
+    font-size: 16px !important;
+    color: #000 !important;
+    padding: 5px 10px;
+}
+.login-btn {
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    width: 220px;
+    padding: 15px;
+    border-radius: 35px;
+    color: #fff !important;
+    text-align: center;
+    background: linear-gradient(90deg, #e75d7a, #c12280);
+}
+.login-btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(90deg, #c12280, #e75d7a);
+}
+.login-btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4em;
+}
+.login-btn-group a {
+    color: #212957;
+    font-size: 20px;
+}
+.login-register {
+    margin-top: 7em;
+    text-align: center;
+}
+.login-register span {
+    color: #707070;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.login-register a {
+    color: #212957;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buyer-signup-bg {
+    width: 60%;
+}
+.modal-dialog.buyer-modal {
+    width: 50% !important;
+    margin: 5em auto !important;
+    float: none !important;
+}
+.modal-content {
+    border-radius: 20px !important;
+}
+.modal-header {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: none !important;
+}
+.modal-close {
+    opacity: 0.5;
+}
+.modal-close:hover {
+    opacity: 1;
+}
+.modal-body-content {
+    display: grid;
+    text-align: center;
+    padding: 50px;
+}
+.modal-body-top {
+    color: #212957;
+    font-size: 45px;
+    font-weight: bold;
+}
+.modal-body-middle {
+    color: #212957;
+    font-size: 25px;
+    line-height: 3;
+}
+.modal-body-bottom {
+    color: #212957;
+    font-size: 16px;
+    line-height: 2;
+}
+.button-login-now {
+    display: flex;
+    justify-content: center;
+}
+.login-now-btn {
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #e75d7a, #c12280);
+}
+.login-now-btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(90deg, #c12280, #e75d7a);
+}
+.modal-footer {
+    border: none;
+    padding: 30px;
+}
+
+@media (max-width: 1366px) {
+    .container {
+        max-width: 90vw !important;
+    }
+    .login-btn {
+        font-size: 16px;
+        width: 150px;
+        padding: 13px;
+    }
+    .login-btn-group a {
+        font-size: 16px;
+    }
+    .login-register span {
+        font-size: 16px;
+    }
+    .login-register a {
+        font-size: 16px;
+    }
+    .buyer-signup-bg {
+        width: 60%;
+    }
+    .buyer-signup-bg img {
+        width: 100%;
+    }
+    .modal-dialog {
+        margin: 3em auto;
+    }
+    .modal-body-content {
+        padding: 30px;
+    }
+    .modal-body-top {
+        font-size: 22px;
+    }
+    .modal-body-middle {
+        font-size: 16px;
+    }
+    .login-now-btn {
+        font-size: 16px;
+    }
+}

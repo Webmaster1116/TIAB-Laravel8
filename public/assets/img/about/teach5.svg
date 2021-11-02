@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.481" height="43.983" viewBox="0 0 49.481 43.983">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e75d7a"/>
+      <stop offset="1" stop-color="#c12280"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_awesome-shopping-cart" data-name="Icon awesome-shopping-cart" d="M45.368,25.885,49.429,8.017A2.062,2.062,0,0,0,47.419,5.5H13.677l-.787-3.849A2.062,2.062,0,0,0,10.869,0H2.062A2.062,2.062,0,0,0,0,2.062V3.436A2.062,2.062,0,0,0,2.062,5.5h6L14.1,35a4.811,4.811,0,1,0,5.759.736h18.01a4.809,4.809,0,1,0,5.463-.894l.474-2.085a2.062,2.062,0,0,0-2.01-2.519H18.737l-.562-2.749H43.358A2.062,2.062,0,0,0,45.368,25.885Z" fill="url(#linear-gradient)"/>
+</svg>

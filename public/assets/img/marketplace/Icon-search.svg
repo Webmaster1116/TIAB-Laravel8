@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.234" height="13.236" viewBox="0 0 13.234 13.236">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e75d7a"/>
+      <stop offset="1" stop-color="#c12280"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_awesome-search" data-name="Icon awesome-search" d="M13.054,11.444,10.477,8.866a.62.62,0,0,0-.439-.181H9.616a5.374,5.374,0,1,0-.931.931v.421a.62.62,0,0,0,.181.439l2.577,2.577a.618.618,0,0,0,.876,0l.732-.732a.623.623,0,0,0,0-.879ZM5.377,8.685A3.309,3.309,0,1,1,8.685,5.377,3.307,3.307,0,0,1,5.377,8.685Z" fill="url(#linear-gradient)"/>
+</svg>

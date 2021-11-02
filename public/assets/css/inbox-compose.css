@@ -1,0 +1,55 @@
+.compose-message {
+  background: linear-gradient(90deg, #e75d7a, #c12280) !important;
+  color: #fff !important;
+}
+.compose-message:hover {
+  background: linear-gradient(90deg, #e75d7a, #c12280) !important;
+  color: #fff !important;
+  background: linear-gradient(90deg, #c12280, #e75d7a) !important;
+}
+.inbox input {
+  outline: none;
+  border: none;
+  background: #f6f6f6;
+  padding: 10px;
+  color: #000;
+  width: 40%;
+}
+.inbox span {
+  font-size: 25px;
+  color: #000;
+  display: block;
+}
+.inbox textarea {
+  outline: none;
+  border: none;
+  background: #f6f6f6;
+  padding: 10px;
+  color: #000;
+  width: 100%;
+}
+.compose-btns {
+  margin: 50px 0;
+}
+.compose-btns a {
+  border-radius: 50px;
+  width: 250px;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 20px;
+  background: linear-gradient(90deg, #e75d7a, #c12280);
+}
+.compose-btns a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(180deg, #5ea2ef, #d12d9c);
+}
+.send-btn {
+  padding: 15px 55px;
+}
+.go-inbox {
+  padding: 15px 25px;
+}
+.cancel-inbox {
+  padding: 15px 50px;
+}

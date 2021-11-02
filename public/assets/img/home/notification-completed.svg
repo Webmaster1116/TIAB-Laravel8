@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.096" height="26.096" viewBox="0 0 26.096 26.096">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e65c7a"/>
+      <stop offset="1" stop-color="#c22380"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_ionic-ios-checkmark-circle" data-name="Icon ionic-ios-checkmark-circle" d="M16.423,3.375A13.048,13.048,0,1,0,29.471,16.423,13.046,13.046,0,0,0,16.423,3.375ZM23.1,12.816l-8.387,8.425H14.71a1.133,1.133,0,0,1-.728.345,1.1,1.1,0,0,1-.734-.358L9.736,17.715a.25.25,0,0,1,0-.358l1.117-1.117a.243.243,0,0,1,.351,0l2.785,2.785,7.653-7.71a.248.248,0,0,1,.176-.075h0a.228.228,0,0,1,.176.075l1.1,1.135A.247.247,0,0,1,23.1,12.816Z" transform="translate(-3.375 -3.375)" fill="url(#linear-gradient)"/>
+</svg>

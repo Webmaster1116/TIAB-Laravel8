@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.852" height="43.852" viewBox="0 0 43.852 43.852">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e75d7a"/>
+      <stop offset="1" stop-color="#c12280"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_ionic-md-close-circle" data-name="Icon ionic-md-close-circle" d="M25.3,3.375A21.926,21.926,0,1,0,47.227,25.3,21.85,21.85,0,0,0,25.3,3.375ZM36.264,33.194l-3.07,3.069L25.3,28.37l-7.893,7.893-3.07-3.069L22.231,25.3l-7.894-7.893,3.07-3.069L25.3,22.231l7.893-7.893,3.07,3.069L28.37,25.3Z" transform="translate(-3.375 -3.375)" fill="url(#linear-gradient)"/>
+</svg>

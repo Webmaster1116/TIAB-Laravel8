@@ -1,0 +1,74 @@
+.nav-link {
+  margin-right: 4rem !important;
+}
+.modal-dialog {
+  width: 300px !important;
+  float: right;
+  margin-right: 25em;
+  margin-top: 8em;
+}
+.modal-notification {
+  width: 350px !important;
+  float: right;
+  margin-right: 30.5em;
+  margin-top: 7em;
+}
+.modal-content {
+  border-radius: 20px;
+}
+.modal-edge img {
+  width: 60px;
+  float: right;
+  margin-top: -30px;
+  margin-right: -15px;
+}
+.body-content {
+  margin: 30px 10px;
+  display: flex;
+  align-items: center;
+}
+.body-notification {
+  margin: 30px 5px;
+}
+.body-content a {
+  color: #000;
+  font-size: 20px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.body-notification a {
+  font-size: 14px;
+}
+.body-content a:hover {
+  text-decoration: none;
+}
+.body-logout {
+  justify-content: center;
+}
+.body-logout a {
+  font-size: 16px;
+  border: none;
+  width: 180px;
+  padding: 15px;
+  border-radius: 35px;
+  color: #fff !important;
+  text-align: center;
+  background: linear-gradient(90deg, #e75d7a, #c12280);
+}
+.body-logout a:hover {
+  color: #fff !important;
+  text-decoration: none;
+  background: linear-gradient(90deg, #c12280, #e75d7a);
+}
+.body-logout a img {
+  margin-right: 10px;
+}
+
+@media (max-width: 1366px) {
+  .modal-dialog {
+    margin-right: 11em;
+  }
+  .modal-notification {
+    margin-right: 16.5em;
+  }
+}

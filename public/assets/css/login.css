@@ -1,0 +1,87 @@
+.jumbotron {
+  height: 750px !important;
+  background: #f6f6f6 !important;
+}
+.login {
+  display: flex;
+}
+.login-box {
+  background: #fff;
+  padding: 50px;
+  width: 50%;
+}
+.login-header {
+  text-align: center;
+}
+.login-header span {
+  font-size: 25px;
+  color: #212957;
+  font-weight: bold;
+}
+.login-box input {
+  width: 100%;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  padding: 10px 0px 0;
+  border: none;
+}
+.login-input {
+  margin-top: 5em;
+}
+.login-btn {
+  font-size: 20px;
+  border: none;
+  width: 220px;
+  padding: 15px;
+  border-radius: 35px;
+  color: #fff !important;
+  text-align: center;
+  background: linear-gradient(90deg, #e75d7a, #c12280);
+}
+.login-btn:hover {
+  color: #fff !important;
+  text-decoration: none;
+  background: linear-gradient(90deg, #c12280, #e75d7a);
+}
+.login-btn-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5em;
+}
+.login-btn-group a {
+  color: #212957;
+  font-size: 20px;
+}
+.login-register {
+  margin-top: 7em;
+  text-align: center;
+}
+.login-register span {
+  color: #707070;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.login-register a {
+  color: #212957;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 1366px) {
+  .login-btn {
+    font-size: 16px;
+    width: 150px;
+    padding: 13px;
+  }
+  .login-btn-group a {
+    font-size: 16px;
+  }
+  .login-register span {
+    font-size: 16px;
+  }
+  .login-register a {
+    font-size: 16px;
+  }
+}

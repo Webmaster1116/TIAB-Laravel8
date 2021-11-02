@@ -1,0 +1,332 @@
+.bashboard-container {
+  background-image: url(../img/mydashboard/header-grey-bg.svg) !important;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 2;
+  position: relative;
+}
+.bashboard-container img {
+  margin-top: 6em;
+  margin-left: -4em;
+}
+.container {
+  max-width: 70vw !important;
+  padding: 0px !important;
+}
+.jumbotron {
+  background: #f6f6f6 !important;
+  height: 1550px !important;
+}
+.profile-jumbotron {
+  height: 3200px !important;
+}
+.profile1-jumbotron {
+  height: 2700px !important;
+}
+.edit-sell1-jumbotron {
+  height: 3200px !important;
+}
+.edit-sell2-jumbotron {
+  height: 4250px !important;
+}
+.purchase-jumbotron {
+  height: 1650px !important;
+}
+.selling-jumbotron {
+  height: 1750px !important;
+}
+.promote-jumbotron {
+  height: 2050px !important;
+}
+.frontpage {
+  align-items: initial !important;
+  margin-top: 3em;
+}
+.sidebar {
+  font-size: 25px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 0px !important;
+  margin-top: -25px;
+}
+.sidebar-header {
+  text-align: center;
+  margin-top: 200px;
+}
+.sidebar-header p {
+  font-size: 25px !important;
+  color: #000;
+  font-weight: bold;
+}
+.sidebar-header div {
+  color: #000;
+}
+.sidebar-star {
+  display: flex;
+  justify-content: center;
+}
+.sidebar-star img {
+  margin-right: 10px;
+}
+.sidebar-follower {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 20px;
+  background: linear-gradient(180deg, #5ea2ef, #d12d9c);
+}
+.follower-number {
+  font-weight: bold;
+}
+.sidebar-menu {
+  padding: 20px 40px;
+  color: #000;
+}
+.sidebar-menu {
+  display: grid;
+}
+.sidebar-menu div {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid rgb(112, 112, 112, 0.1);
+}
+.sidebar-btn {
+  opacity: 0.4;
+  margin-left: 30px;
+  color: #000 !important;
+}
+.edit-profile-btn {
+  color: #c12280 !important;
+  opacity: 1;
+}
+.sidebar-btn:hover {
+  color: #c12280 !important;
+  text-decoration: none;
+  opacity: 1;
+}
+.last-menu {
+  border-bottom: none !important;
+}
+.profile {
+  padding-top: 20px !important;
+  padding-left: 5em !important;
+  z-index: 2;
+}
+.profile-header {
+  font-size: 45px;
+  color: #000;
+  font-weight: bold;
+}
+.profile-inputs {
+  margin-top: 40px;
+}
+.profile-inputs span {
+  font-size: 25px;
+  color: #000;
+  display: block;
+}
+.profile-inputs input,
+textarea {
+  background: #f6f6f6;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  padding: 15px 0;
+  outline: none;
+  color: #000 !important;
+  font-size: 16px;
+  width: 100%;
+}
+.profile-input {
+  margin-top: 40px;
+}
+.half-input {
+  display: flex;
+  justify-content: space-between;
+}
+.half-input div {
+  width: 45%;
+}
+.login-info {
+  color: #212957;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.sell-descript {
+  font-size: 16px !important;
+  color: #000;
+  opacity: 0.5;
+  line-height: 2.5;
+  margin-top: 0.5em;
+}
+.profile-input select {
+  border: none;
+  box-shadow: none;
+  padding: 0px;
+  color: #000;
+  opacity: 0.7;
+  font-size: 16px;
+  background-color: #f6f6f6;
+  height: 70px !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid rgb(112, 112, 112, 0.1) !important;
+}
+.profile-input select:focus {
+  border: #fff;
+  box-shadow: none;
+}
+.gst-register {
+  display: flex;
+  margin-bottom: 20px;
+}
+.gst-register img {
+  margin: 0 20px 0 20px;
+}
+.australian-only {
+  margin-top: 40px;
+}
+.banner-content {
+  width: 120%;
+}
+.sell-btns {
+  margin: 6em 0;
+}
+.sell-btns a {
+  border-radius: 50px;
+  width: 250px;
+  color: #212957;
+}
+.sell-btns a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(180deg, #e75d7a, #c12280);
+}
+.sell-btn {
+  padding: 15px 65px;
+  color: #fff !important;
+  font-size: 23px !important;
+  background: linear-gradient(90deg, #e75d7a, #c12280);
+}
+.upload-img {
+  margin-top: 30px;
+}
+.professional-info {
+  margin-top: 4em;
+}
+.sell-btns a {
+  font-size: 18px !important;
+}
+.free-upload img {
+  margin: 20px 15px 0 0 !important;
+  width: 200px !important;
+}
+.free-upload2 {
+  margin-top: 3em;
+}
+.resource-first .lg-image {
+  margin: 0 10px;
+}
+.resource-content-header {
+  font-size: 10px !important;
+}
+.resource-content p {
+  font-size: 9px !important;
+}
+.resource-first {
+  margin-top: 20px;
+  width: 115% !important;
+}
+.summary-title {
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
+.promote-imgs div {
+  display: flex;
+  margin: 40px 0 20px;
+}
+.promote-imgs div img {
+  margin-right: 20px;
+}
+
+@media (max-width: 1366px) {
+  .container {
+    max-width: 85vw !important;
+  }
+  .edit-sell1-jumbotron .container {
+    max-width: 85vw !important;
+  }
+  .edit-sell2-jumbotron .container {
+    max-width: 85vw !important;
+  }
+  .jumbotron {
+    height: 1500px !important;
+  }
+  .profile-jumbotron {
+    height: 3000px !important;
+  }
+  .profile1-jumbotron {
+    height: 2700px !important;
+  }
+  .edit-sell1-jumbotron {
+    height: 3150px !important;
+  }
+  .edit-sell2-jumbotron {
+    height: 4250px !important;
+  }
+  .purchase-jumbotron {
+    height: 1550px !important;
+  }
+  .selling-jumbotron {
+    height: 1700px !important;
+  }
+  .bashboard-container img {
+    margin-top: 2em;
+    margin-left: -6em;
+  }
+  .sidebar {
+    margin-top: -3em;
+  }
+  .upload-img1 {
+    width: 200px;
+  }
+  .upload-img2 {
+    width: 700px;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .sell-btn2 {
+    margin-left: 5px !important;
+  }
+  .sell-btns a {
+    font-size: 15px !important;
+  }
+  .free-upload img {
+    margin: 20px 15px 0 0 !important;
+    width: 150px !important;
+  }
+  .hard-checkbox span {
+    font-size: 21px;
+  }
+  .resource-first {
+    margin-top: 20px;
+    width: 105% !important;
+  }
+  .profile {
+    padding-left: 3em !important;
+  }
+  .resource-content-header {
+    font-size: 9px !important;
+  }
+  .promote-imgs img {
+    height: 200px;
+  }
+  .promote-jumbotron {
+    height: 1910px !important;
+  }
+}

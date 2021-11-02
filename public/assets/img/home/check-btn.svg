@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.169" height="45.168" viewBox="0 0 45.169 45.168">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e75d7a"/>
+      <stop offset="1" stop-color="#c12280"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_21698" data-name="Group 21698" transform="translate(-258 -4012.713)">
+    <rect id="Rectangle_399" data-name="Rectangle 399" width="45.169" height="45.169" rx="10" transform="translate(258 4012.713)" fill="url(#linear-gradient)"/>
+    <path id="Icon_feather-check" data-name="Icon feather-check" d="M24.353,9,11.735,21.618,6,15.882" transform="translate(265.408 4019.705)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184.078" height="60" viewBox="0 0 184.078 60">
+  <g id="Group_21699" data-name="Group 21699" transform="translate(-1340 -5369.998)">
+    <g id="Group_20879" data-name="Group 20879" transform="translate(283.078 108.998)">
+      <g id="Group_20877" data-name="Group 20877">
+        <text id="Get_it_From_" data-name="Get it From " transform="translate(1119 5278)" fill="#fff" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Get it From </tspan></text>
+        <text id="Playstore" transform="translate(1119 5312)" fill="#fff" font-size="25" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Playstore</tspan></text>
+      </g>
+    </g>
+    <path id="Icon_material-android" data-name="Icon material-android" d="M9.994,31.475a1.754,1.754,0,0,0,1.749,1.749h1.749v6.12a2.623,2.623,0,0,0,5.246,0v-6.12h3.5v6.12a2.623,2.623,0,0,0,5.246,0v-6.12h1.749a1.754,1.754,0,0,0,1.749-1.749V13.989H9.994ZM5.623,13.989A2.619,2.619,0,0,0,3,16.612v12.24a2.623,2.623,0,0,0,5.246,0V16.612A2.619,2.619,0,0,0,5.623,13.989Zm29.726,0a2.619,2.619,0,0,0-2.623,2.623v12.24a2.623,2.623,0,1,0,5.246,0V16.612A2.619,2.619,0,0,0,35.349,13.989ZM26.658,3.777,28.932,1.5a.866.866,0,0,0,0-1.241.866.866,0,0,0-1.241,0L25.1,2.85a10.211,10.211,0,0,0-4.616-1.1,10.358,10.358,0,0,0-4.651,1.1L13.229.262a.866.866,0,0,0-1.241,0,.866.866,0,0,0,0,1.241l2.291,2.291A10.462,10.462,0,0,0,9.994,12.24H30.977A10.431,10.431,0,0,0,26.658,3.777Zm-9.67,4.966H15.24V6.994h1.749Zm8.743,0H23.983V6.994h1.749Z" transform="translate(1337 5379.016)" fill="#fff"/>
+  </g>
+</svg>

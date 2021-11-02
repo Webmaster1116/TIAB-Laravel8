@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.241" height="42.668" viewBox="0 0 41.241 42.668">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e75d7a"/>
+      <stop offset="1" stop-color="#c12280"/>
+    </linearGradient>
+  </defs>
+  <g id="_2639837_idea_icon" data-name="2639837_idea_icon" transform="translate(0 0)">
+    <circle id="Ellipse_363" data-name="Ellipse 363" cx="1.586" cy="1.586" r="1.586" transform="translate(19.035 39.496)" fill="url(#linear-gradient)"/>
+    <path id="Path_48769" data-name="Path 48769" d="M12,26.586a3.172,3.172,0,0,0,3.172,3.172h3.172a3.172,3.172,0,0,0,3.172-3.172V25H12Z" transform="translate(3.862 11.323)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_364" data-name="Ellipse 364" cx="1.586" cy="1.586" r="1.586" transform="translate(38.069 14.116)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_365" data-name="Ellipse 365" cx="1.586" cy="1.586" r="1.586" transform="translate(0 14.116)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_366" data-name="Ellipse 366" cx="1.586" cy="1.586" r="1.586" transform="translate(31.836 29.162) rotate(-45)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_367" data-name="Ellipse 367" cx="1.586" cy="1.586" r="1.586" transform="translate(4.919 2.243) rotate(-45)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_368" data-name="Ellipse 368" cx="1.586" cy="1.586" r="1.586" transform="translate(4.918 29.161) rotate(-45)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_369" data-name="Ellipse 369" cx="1.586" cy="1.586" r="1.586" transform="translate(31.837 2.244) rotate(-45)" fill="url(#linear-gradient)"/>
+    <path id="Path_48770" data-name="Path 48770" d="M20.276,3A14.275,14.275,0,0,0,6,17.276c0,7.931,6.345,11.1,9.517,17.448h9.517c3.172-6.345,9.517-9.517,9.517-17.448A14.275,14.275,0,0,0,20.276,3Zm0,23.793V18.862H13.931l6.345-11.1V15.69h6.345Z" transform="translate(0.345 -1.573)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
