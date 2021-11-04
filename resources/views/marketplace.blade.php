@@ -137,7 +137,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>
@@ -211,7 +211,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>
@@ -285,7 +285,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>
@@ -361,7 +361,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>
@@ -435,7 +435,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>
@@ -509,7 +509,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>
@@ -585,7 +585,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>
@@ -659,7 +659,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>
@@ -733,7 +733,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>
@@ -809,7 +809,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>
@@ -883,7 +883,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>
@@ -957,7 +957,7 @@
                       </a>
                     </div>
                     <div class="col-lg-3 resource-price">
-                      <span class="price-tag">Price</span>
+                      <span class="price-tag1">Price</span>
                       <span class="price-value">$4.20</span>
                     </div>
                   </div>

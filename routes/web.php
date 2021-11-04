@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\ForgotPasswordController;
+use App\Http\Controllers\RegistrationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -103,3 +105,15 @@ Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name(
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom'); 
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
+
+Route::get('forget-password', [ForgotPasswordController::class, 'showForgetPasswordForm'])->name('forget.password.get');
+Route::post('forget-password', [ForgotPasswordController::class, 'submitForgetPasswordForm'])->name('forget.password.post'); 
+Route::get('reset-password/{token}', [ForgotPasswordController::class, 'showResetPasswordForm'])->name('reset.password.get');
+Route::post('reset-password', [ForgotPasswordController::class, 'submitResetPasswordForm'])->name('reset.password.post');
+
+Route::post('buyer-signup-information', [RegistrationController::class, 'buyerRegistrationInformation'])->name('buyer-signup-information');
+Route::post('buyer-signup', [RegistrationController::class, 'buyerRegistrationForm'])->name('buyer-signup');
+
+Route::post('seller-signup-information1', [RegistrationController::class, 'sellerRegistrationInformation1'])->name('seller-signup-information1');
+Route::post('seller-signup-information2', [RegistrationController::class, 'sellerRegistrationInformation2'])->name('seller-signup-information2');
+Route::post('seller-signup', [RegistrationController::class, 'sellerRegistrationForm'])->name('seller-signup');

@@ -10,84 +10,117 @@
             <div class="buyer-signup-bg">
               <img src="assets/img/become-member/buyer-login-information.svg" />
             </div>
+            
             <div class="login-box">
-              <div class="login-header">
-                <span>Buyer Registration</span>
-              </div>
-              <div class="personal">
-                <span>Login Information</span>
-              </div>
-              <div class="login-input">
-                <input
-                  class="buyer-input"
-                  type="email"
-                  placeholder="Email Address"
-                />
-                <input
-                  class="buyer-input"
-                  type="email"
-                  placeholder="Re Enter Email Address"
-                />
-                <input
-                  class="user-id buyer-input"
-                  type="text"
-                  placeholder="Create your Teach In A Box User ID / Store Name"
-                />
-                <span
-                  >Please note that no spaces or special characters are allowed
-                  in the User ID / Store Name - Characters allowed include
-                  letters A-Z and numbers 0-9. You can also utilise fullstops
-                  (.) and underscores (_) to space out your User ID / Store
-                  Name. Please note: User ID / Store Name cannot be changed once
-                  you have registered, so please choose your name
-                  carefully.</span
-                >
-                <input
-                  class="password buyer-input"
-                  type="password"
-                  placeholder="Create your Password"
-                />
-                <input
-                  class="buyer-input"
-                  type="password"
-                  placeholder="Re enter your password"
-                />
+              <form action="{{ route('buyer-signup') }}" method="POST">
+              @csrf
+                <div class="login-header">
+                  <span>Buyer Registration</span>
+                </div>
+                <div class="personal">
+                  <span>Login Information</span>
+                </div>
+                <input id="success" type="hidden" name="success" value="{{$success}}"/>
+                <input type="hidden" name="first_name" value="{{$first_name}}"/>
+                <input type="hidden" name="last_name" value="{{$last_name}}"/>
+                <input type="hidden" name="birthday" value="{{$birthday}}"/>
+                <input type="hidden" name="country" value="{{$country}}"/>
+                <input type="hidden" name="state" value="{{$state}}"/>
+                <input type="hidden" name="hear" value="{{$hear}}"/>
+                <input type="hidden" name="referral_code" value="{{$referral_code}}"/>
+                <div class="login-input">
+                  <input
+                    class="buyer-input"
+                    type="email"
+                    placeholder="Email Address"
+                    name="email"
+                    required
+                  />
+                  <input
+                    class="buyer-input"
+                    type="email"
+                    placeholder="Re Enter Email Address"
+                    name="email_confirmation"
+                    required
+                  />
+                  <input
+                    class="user-id buyer-input"
+                    type="text"
+                    placeholder="Create your Teach In A Box User ID / Store Name"
+                    name="user_id"
+                    required
+                  />
+                  <span
+                    >Please note that no spaces or special characters are allowed
+                    in the User ID / Store Name - Characters allowed include
+                    letters A-Z and numbers 0-9. You can also utilise fullstops
+                    (.) and underscores (_) to space out your User ID / Store
+                    Name. Please note: User ID / Store Name cannot be changed once
+                    you have registered, so please choose your name
+                    carefully.</span
+                  >
+                  <input
+                    class="password buyer-input"
+                    type="password"
+                    placeholder="Create your Password"
+                    name="password"
+                    required
+                  />
+                  <input
+                    class="buyer-input"
+                    type="password"
+                    placeholder="Re enter your password"
+                    name="password_confirmation"
+                    required
+                  />
 
-                <select class="form-control select1">
-                  <option selected>Pick a secret question</option>
-                  <option>Your first pet's name?</option>
-                  <option>Your most favorite song?</option>
-                  <option>Your dream car?</option>
-                  <option>Your most favorite football player?</option>
-                </select>
-                <span
-                  >This will be required if you happen to forget your username
-                  or password to regain access to your account</span
-                >
-                <input
-                  class="secret-answer buyer-input"
-                  type="text"
-                  placeholder="Your secret answer"
-                />
-                <div class="checkbox">
-                  <input type="checkbox" />
-                  <span> accept the User Agreement and Copyright Policy</span>
+                  <select class="form-control select1" id="secret_question" name="secret_question">
+                    <option vlaue="0">Pick a secret question</option>
+                    <option vlaue="Your first pet's name?">Your first pet's name?</option>
+                    <option value="Your most favorite song?">Your most favorite song?</option>
+                    <option value="Your dream car?">Your dream car?</option>
+                    <option value="Your most favorite football player?">Your most favorite football player?</option>
+                  </select>
+                  <span
+                    >This will be required if you happen to forget your username
+                    or password to regain access to your account</span
+                  >
+                  <input
+                    class="secret-answer buyer-input"
+                    type="text"
+                    placeholder="Your secret answer"
+                    name="answer"
+                    required
+                  />
+                  <div class="checkbox">
+                    <input type="checkbox" required />
+                    <span> accept the User Agreement and Copyright Policy</span>
+                  </div>
+                  <div class="checkbox">
+                    <input type="checkbox" required />
+                    <span> I am at least 18 years of age</span>
+                  </div>
                 </div>
-                <div class="checkbox">
-                  <input type="checkbox" />
-                  <span> I am at least 18 years of age</span>
+                <div class="login-btn-group">
+                  <button
+                    type="submit"
+                    class="login-btn"
+                  >
+                    Continue
+                  </button>
                 </div>
-              </div>
-              <div class="login-btn-group">
-                <button
-                  class="login-btn"
-                  data-toggle="modal"
-                  data-target="#completeModal"
-                >
-                  Continue
-                </button>
-              </div>
+              </form>
             </div>
+            <button
+              id="modalShow"
+              style="display:none"
+              class="login-btn"
+              data-toggle="modal"
+              data-target="#completeModal"
+            >
+              Continue
+            </button> 
+            
           </div>
         </div>
       </header>
@@ -125,3 +158,17 @@
       </div>
     </div>
 @endsection
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script>
+  $( document ).ready(function() {
+    var success = $('#success').val();
+    console.log(success);
+    if(success == 'success'){
+      $('#modalShow').click();
+    }
+});
+  
+</script>

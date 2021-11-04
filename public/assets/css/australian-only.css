@@ -124,7 +124,7 @@
     margin-bottom: 30px;
 }
 .gst-register input {
-    margin: 0 5px 0 20px;
+    margin: 0 5px 0 20px !important;
 }
 .gst-register img {
     margin: 0 5px 0 20px;

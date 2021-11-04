@@ -4,6 +4,8 @@
 }
 .buyer-signup-bg {
     width: 60%;
+    display: flex;
+    padding-right: 50px;
 }
 .login {
     display: flex;
@@ -11,7 +13,6 @@
 .login-box {
     background: #fff;
     padding: 50px;
-    width: 50%;
     margin-left: 20px;
 }
 .login-header {

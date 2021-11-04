@@ -309,9 +309,9 @@
             <a href=""><img src="assets/img/home/icon-arrow-left.svg" /></a>
           </div>
           <div class="container resource-view-more">
-            <button class="resource-button1 view-more">
+            <a class="resource-button1 view-more" href="/marketplace">
               View all Featured
-            </button>
+            </a>
           </div>
         </div>
       </section>

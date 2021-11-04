@@ -3,10 +3,10 @@
     background: #f6f6f6 !important;
 }
 .buyer-jumbotron {
-    height: 1400px !important;
+    height: 1320px !important;
 }
 .seller-jumbotron {
-    height: 1470px !important;
+    height: 1350px !important;
 }
 .login {
     display: flex;
@@ -14,8 +14,8 @@
 .login-box {
     background: #fff;
     padding: 50px;
-    width: 50%;
     margin-left: 20px;
+    width: 50%;
 }
 .login-header {
     text-align: center;
@@ -130,6 +130,9 @@
 }
 .buyer-signup-bg {
     width: 60%;
+    display: flex;
+    padding-right: 50px;
+    margin-top: -6em;
 }
 .modal-dialog.buyer-modal {
     width: 50% !important;
